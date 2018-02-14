@@ -1,17 +1,17 @@
 {
-  "name": "bitcore-dash",
+  "name": "bitcore-artax",
   "main": "./bitcore.min.js",
   "version": "0.13.5",
   "homepage": "http://bitcore.io",
   "authors": [
     "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your dash project.",
+  "description": "A pure, powerful core for your artax project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "dash",
+    "artax",
     "bitcore",
     "dsh",
     "satoshi"

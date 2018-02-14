@@ -1,24 +1,24 @@
-# Bitcore-Dash
+# Bitcore-Artax
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-dash)
-[![Build Status](https://img.shields.io/travis/dashevo/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-artax.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-artax)
+[![Build Status](https://img.shields.io/travis/yoyaeArtax/bitcore-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyaeArtax/bitcore-artax)
 
-Infrastructure to build Dash and blockchain-based applications for the next generation of financial technology.
+Infrastructure to build Artax and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashevo/bitcore-lib-dash
+**Note:** If you're looking for the Bitcore-Artax Library please see: https://github.com/yoyaeArtax/bitcore-lib-artax
 
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-artax
 ```
 
 Spin up a full node and join the network:
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-artax
 bitcored
 ```
 
@@ -26,7 +26,7 @@ You can then view the Insight block explorer at the default location: `http://lo
 
 Create a transaction:
 ```js
-var bitcore = require('bitcore-dash');
+var bitcore = require('bitcore-artax');
 var transaction = new bitcore.Transaction();
 var transaction.from(unspent).to(address, amount);
 transaction.sign(privateKey);
@@ -34,24 +34,24 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Dash](https://github.com/dashevo/bitcore-node-dash) - A full node with extended capabilities using Dash Core
-- [Insight API-Dash](https://github.com/dashevo/insight-api-dash) - A blockchain explorer HTTP API
-- [Insight UI-Dash](https://github.com/dashevo/insight-ui-dash) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-dash) - A multisig HD service for wallets
-- [Wallet Client](https://github.com/dashevo/bitcore-wallet-client-dash) - A client for the wallet service
+- [Node-Artax](https://github.com/yoyaeArtax/bitcore-node-artax) - A full node with extended capabilities using Artax Core
+- [Insight API-Artax](https://github.com/yoyaeArtax/insight-api-artax) - A blockchain explorer HTTP API
+- [Insight UI-Artax](https://github.com/yoyaeArtax/insight-ui-artax) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/yoyaeArtax/bitcore-wallet-service-artax) - A multisig HD service for wallets
+- [Wallet Client](https://github.com/yoyaeArtax/bitcore-wallet-client-artax) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
-- Copay - An easy-to-use, multiplatform, multisignature, secure Dash wallet
+- Copay - An easy-to-use, multiplatform, multisignature, secure Artax wallet
 
 ## Libraries
 
-- [Lib-Dash](https://github.com/dashevo/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
+- [Lib-Artax](https://github.com/yoyaeArtax/bitcore-lib-artax) - All of the core Artax primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-Dash](https://github.com/dashevo/bitcore-p2p-dash) - The peer-to-peer networking protocol
-- [Mnemonic-Dash](https://github.com/dashevo/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
-- Channel - Micropayment channels for rapidly adjusting Dash transactions
-- [Message-Dash](https://github.com/dashevo/bitcore-message-dash) - Dash message verification and signing
-- [ECIES-Dash](https://github.com/dashevo/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [P2P-Artax](https://github.com/yoyaeArtax/bitcore-p2p-artax) - The peer-to-peer networking protocol
+- [Mnemonic-Artax](https://github.com/yoyaeArtax/bitcore-mnemonic-artax) - Implements mnemonic code for generating deterministic keys
+- Channel - Micropayment channels for rapidly adjusting Artax transactions
+- [Message-Artax](https://github.com/yoyaeArtax/bitcore-message-artax) - Artax message verification and signing
+- [ECIES-Artax](https://github.com/yoyaeArtax/bitcore-ecies-artax) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
 
@@ -70,7 +70,7 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-dash/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/yoyaeArtax/bitcore-artax/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
