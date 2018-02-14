@@ -76,16 +76,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yoyaeArtax/bitcore-artax.git"
+    "url": "https://github.com/artaxYoyae/bitcore-artax.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib-artax": "yoyaeArtax/bitcore-lib-artax",
-    "bitcore-node-artax": "yoyaeArtax/bitcore-node-artax",
-    "insight-api-artax": "yoyaeArtax/insight-api-artax",
-    "insight-ui-artax": "yoyaeArtax/insight-ui-artax"
+    "bitcore-lib-artax": "artaxYoyae/bitcore-lib-artax",
+    "bitcore-node-artax": "artaxYoyae/bitcore-node-artax",
+    "insight-api-artax": "artaxYoyae/insight-api-artax",
+    "insight-ui-artax": "artaxYoyae/insight-ui-artax"
   },
   "license": "MIT",
   "devDependencies": {

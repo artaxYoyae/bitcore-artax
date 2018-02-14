@@ -238,7 +238,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add artax git@github.com:yoyaeArtax/bitcore-artax.git
+git remote add artax git@github.com:artaxYoyae/bitcore-artax.git
 git pull --rebase artax master
 ```
 
@@ -250,11 +250,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/yoyaeArtax/bitcore-artax](https://github.com/yoyaeArtax/bitcore-artax) in your web browser and issue a new pull request.
+Finally go to [github.com/artaxYoyae/bitcore-artax](https://github.com/artaxYoyae/bitcore-artax) in your web browser and issue a new pull request.
 
 Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcore.
 
 If you have any questions feel free to post them to
-[github.com/yoyaeArtax/bitcore-artax/issues](https://github.com/yoyaeArtax/bitcore-artax/issues).
+[github.com/artaxYoyae/bitcore-artax/issues](https://github.com/artaxYoyae/bitcore-artax/issues).
 
 Thanks for your time and code!
